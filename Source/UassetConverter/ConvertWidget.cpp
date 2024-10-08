@@ -154,8 +154,6 @@ void UConvertWidget::Convert()
 
 		UE_LOG(LogTemp, Warning, TEXT("%s"), *FilePath);
 	}
-	// 1. 01_SourceFile 폴더 내의 모든 UOBJECT를 가져온다.
-	// 2. 각각 내보낸다. 
 }
 
 void UConvertWidget::AddConvertingFile()
